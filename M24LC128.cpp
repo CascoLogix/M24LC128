@@ -26,12 +26,13 @@
 #include <Wire.h>
 
 
-#define M24LC128_I2C_ADDRESS				0x50
+#define M24LC128_I2C_ADDRESS				(0x50)
 
 
 // Constructor
 M24LC128::M24LC128()
 {
+
 }
 
 
@@ -152,5 +153,3 @@ uint8_t M24LC128::pollWIP()								// Poll for Write-in-progress (WIP)
 	
 	return retVal;										// Return ACK/NACK
 }
-
-

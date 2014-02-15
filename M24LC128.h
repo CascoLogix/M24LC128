@@ -48,6 +48,4 @@ public:
 	uint8_t pollWIP();													// Poll for Write-in-progress (WIP)
 };
 
-//extern M24LC128 M24LC128;
-
 #endif // M24LC128_h
